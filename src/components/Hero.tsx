@@ -108,7 +108,7 @@ export default function Hero() {
 
           {/* Seu teste — pode deixar aqui por enquanto */}
           <div className="mt-4 rounded-2xl bg-white p-4 text-black dark:bg-zinc-900 dark:text-white">
-            Se eu mudar com o toggle, dark mode está OK ✅
+            
           </div>
         </div>
 
