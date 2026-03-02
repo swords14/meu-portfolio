@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Tailwind v4: ativa o dark: quando existir a classe .dark em algum ancestral (ex.: <html class="dark">) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+* { -webkit-tap-highlight-color: transparent; }
+::selection { background: rgba(255, 255, 255, 0.18); }
